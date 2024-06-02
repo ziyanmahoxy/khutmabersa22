@@ -33,13 +33,13 @@ def open_website(url):
         st.write(f"Judul Halaman: {driver.title}")
         
         # Menampilkan tangkapan layar (opsional)
-        screenshot = driver.get_screenshot_as_png()
-        st.image(screenshot, caption=f"Screenshot dari {url}")
+        #screenshot = driver.get_screenshot_as_png()
+        #st.image(screenshot, caption=f"Screenshot dari {url}")
 
     except WebDriverException as e:
         logging.error(f"Gagal membuka website: {url}. Error: {e}")
-    finally:
-        driver.quit()  # Selalu tutup driver setelah selesai
+    #finally:
+        #driver.quit()  # Selalu tutup driver setelah selesai
 
 # Streamlit App
 st.title("Auto Refresh Website")
